@@ -22,5 +22,10 @@ public class ElControlador {
 		return "Ayudantes";
 	}
 	
+	@GetMapping("/acceso-denegado")
+	public String muestraAccesoDenegado() {
+		return "acceso-denegado";
+	}
+	
 	
 }
